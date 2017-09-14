@@ -34,7 +34,7 @@ x_test = []
 y_train = []
 y_test = []
 
-#divide attributes and labels into training and test sets -> 2/3 for train, 1/3 for test.
+# Split the data
 x_test = [datasets.data[i] for i in range(len(datasets.data)) if i%4 == 0]
 x_train = [datasets.data[i] for i in range(len(datasets.data)) if i%4 != 0]
 y_test = [datasets.target[i] for i in range(len(datasets.data)) if i%4 == 0]
