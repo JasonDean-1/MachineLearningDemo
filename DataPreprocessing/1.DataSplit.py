@@ -42,6 +42,6 @@ y_train = [datasets.target[i] for i in range(len(datasets.data)) if i%4 != 0]
 
 # Print out the datashape.
 print "The length of train set is: ", len( y_train )
-# Ans = (1347L,)
+# Ans = 1347
 print "The length of test set is: ", len( y_test )
-# Ans = (450L,)
+# Ans = 450
